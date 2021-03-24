@@ -1,5 +1,6 @@
 package main
 
+
 //import (
 //	"./leetcode70"
 //	"fmt"
@@ -12,7 +13,3 @@ package main
 
 
 
-func main()  {
-
-
-}
