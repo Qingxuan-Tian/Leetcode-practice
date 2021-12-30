@@ -1,11 +1,14 @@
-package offer5
+package main
 
-import "strings"
+import (
+	"fmt"
+
+	"strings"
+)
 
 func replaceSpace(s string) string {
 	//========================================================
 	//方法1
-	//var res string
 	//for _,v:= range s{
 	//	if v==' '{
 	//		res+="%20"
@@ -20,3 +23,23 @@ func replaceSpace(s string) string {
 	return strings.Replace(s," ","%20",-1)
 
 }
+
+
+func main(){
+	var s string="hello world"
+	s="abc"
+	fmt.Println(s)
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
